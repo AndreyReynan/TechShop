@@ -1,0 +1,32 @@
+.produtos .produto-card{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+.produtos .produto-card .img-card{
+    width: 100%;
+    height: 55%;
+    overflow: hidden;
+}
+.produtos .produto-card .img-card img{
+    width: 100%;
+    position: relative;
+}
+.produtos .produto-card .info-card{
+    width: 100%;
+    height: 35%;
+    overflow: hidden;
+}
+.produtos .produto-card .preco-card{
+    width: 100%;
+    height: 10%;
+    color: red;
+}

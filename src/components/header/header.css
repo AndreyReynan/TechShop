@@ -1,0 +1,48 @@
+.header{
+    background-color: #242323;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header .logo{
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.header .logo span{
+    color: red;
+}
+.header .search{
+    background-color: #4b4b4b;
+    width: 950px;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.header .search input{
+    background: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.header .search input::placeholder{
+    font-size: 30px;
+}
+.header .search p{
+    margin-right: 10px;
+    position: relative;
+}
+.header .cart{
+    font-size: 35px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}

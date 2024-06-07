@@ -1,0 +1,123 @@
+.conteiner{
+    width: 100%;
+    display: flex;
+}
+.conteiner .produtos-carrinho{
+    background-color: #2E2E2E;
+    width: 54%;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow-y: scroll;
+}
+.conteiner .produtos-carrinho h1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+.conteiner .produtos-carrinho .conteiner-produtos{
+    width: 100%;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    display: flex;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .img-carrinho{
+    width: 150px;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .img-carrinho img{
+    height: 100%;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos{
+    width: calc(100% - 150px);
+    position: relative;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos .desc-carrinho{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    overflow: hidden;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos .preco-carrinho{
+    color: red;
+    font-size: 30px;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos .quantidade{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos .quantidade .somar, .subtrair{
+    cursor: pointer;
+}
+.conteiner .produtos-carrinho .conteiner-produtos .produto-carrinho .conteiner-infos .excluir{
+    position: absolute;
+    bottom: 45%;
+    right: 0;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.conteiner .somar-produtos{
+    background-color: #2E2E2E;
+    width: 40%;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner .somar-produtos h1{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.conteiner .somar-produtos h2{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.conteiner .somar-produtos select{
+    margin-left: 30px;
+    width: 400px;
+}
+.conteiner .somar-produtos .cupons{
+    display: flex;
+    gap: 20px;
+}
+.conteiner .somar-produtos .cupons input{
+    background-color: #3B3A3A;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.conteiner .somar-produtos .conteiner-button{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.conteiner .somar-produtos .conteiner-button button{
+    width: 300px;
+    height: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    transition: 0.2s;
+}
+.conteiner .somar-produtos .conteiner-button button:hover{
+    background-color: white;
+    color: red;
+}

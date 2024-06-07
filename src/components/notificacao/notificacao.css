@@ -1,0 +1,33 @@
+.conteiner-notificacao{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff00008f;
+    border-radius: 10px;
+    overflow: hidden;
+    animation-name: fimTemporizador;
+    animation-delay: 1s;
+    animation-duration: 0.5s;
+}
+.temporizador-notificacao{
+    position: absolute;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    animation: temporizador 1s linear;
+    left: 0;
+}
+@keyframes temporizador{
+    from{width: 100%;}
+    to{width: 0;}
+}
+@keyframes fimTemporizador{
+    from{height: 100px;}
+    to{height: 0;}
+}

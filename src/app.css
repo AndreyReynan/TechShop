@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3B3A3A;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.produtos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.promos{
+    width: 100%;
+    height:350px;
+    background: linear-gradient(90.11deg, #FF0000 0.11%, #000000 24.02%, #000000 79.52%, #FF0000 98.67%);
+    position: relative;
+    overflow: hidden;
+}
+.promos h3, h4, h5, img, i{
+    position: absolute;
+}
+.promos h3{
+    left: 150px;
+    font-size: 60px;
+    width: 300px;
+    top: 30px;
+}
+.promos h5{
+    left: 150px;
+    font-size: 25px;
+    top: 170px;
+}
+.promos h4{
+    left: 200px;
+    top: 220px;
+    font-size: 40px;
+}
+.promos img{
+    width: 400px;
+    right: 300px;
+}
+.promos .esquerda{
+    left: 20px;
+    top: 40%;
+    font-size: 100px;
+    cursor: pointer;
+    color: #000000;
+    position: absolute;
+}
+.promos .direita{
+    right: 20px;
+    top: 40%;
+    font-size: 100px;
+    cursor: pointer;
+    color: #000000;
+    position: absolute;
+}
+.conteiner{
+    width: 100%;
+    display: flex;
+}
+.conteiner .img{
+    width: 50%;
+    max-height: 500px;
+    margin-top: 60px;
+    margin-left: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.conteiner .img img{
+    width: 100%;
+}
+.conteiner .infos{
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 20px;
+    height: 500px;
+}
+.conteiner .infos .info{
+    font-size: 40px;
+    height: 60%;
+}
+.conteiner .infos .preco{
+    font-size: 30px;
+    color: red;
+    height: 20%;
+}
+.conteiner .infos .botoes{
+    width: 100%;
+    height: 60px;
+}
+.conteiner .infos .botoes button{
+    height: 100%;
+    width: 230px;
+    margin-left: 60px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.conteiner .infos .botoes .comprar{
+    background-color: red;
+}
+.conteiner .infos .botoes .comprar:hover{
+    background-color: white;
+    color: red;
+    width: 235px;
+    height: 110%;
+}
+.conteiner .infos .botoes .add{
+    background-color: #03ff4f;
+}
+.conteiner .infos .botoes .add:hover{
+    background-color: white;
+    color: #03ff4f;
+    width: 235px;
+    height: 110%;
+}
